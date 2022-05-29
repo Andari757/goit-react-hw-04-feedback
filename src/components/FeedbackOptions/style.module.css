@@ -1,0 +1,15 @@
+.button {
+    width: 33.33%;
+    height: 46px;
+    font-size: 22px;
+    background-color: #ccc;
+    border: none;
+}
+
+.button:not(:last-child) {
+    border-right: 1px solid #EEE;
+}
+
+.button-wraper {
+    margin-top: 90px;
+}

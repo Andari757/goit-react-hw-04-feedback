@@ -1,0 +1,7 @@
+.section {
+    width: 25%;
+    border: 1px solid antiquewhite;
+    height: 270px;
+    padding: 30px;
+    background-color: rgb(145, 145, 142)
+}
