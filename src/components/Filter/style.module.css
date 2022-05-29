@@ -1,0 +1,12 @@
+.filter {
+    font-size: 22px;
+    text-align: center;
+}
+
+.input {
+    width: 80%;
+    height: 24px;
+    background-color: #eee;
+    border: none;
+    margin-bottom: 8px;
+}
