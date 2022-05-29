@@ -1,0 +1,31 @@
+.listItem {
+    display: flex;
+    list-style: none;
+    padding: 12px;
+    justify-content: space-between;
+    padding: 20px 12px;
+    border-radius: 6px;
+}
+
+.listItem:nth-child(even) {
+    background-color: #eee;
+
+}
+
+
+
+.listItem:not(:last-child) {}
+
+.button {
+    color: darkslategray;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 6px;
+    border: 1px solid silver;
+}
+
+.button:hover,
+.button:focus {
+    background-color: slategray;
+}

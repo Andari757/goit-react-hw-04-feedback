@@ -1,0 +1,33 @@
+.form {
+    font-size: 22px;
+    text-align: center;
+}
+
+
+.input {
+    width: 80%;
+    height: 24px;
+    background-color: #eee;
+    border: none;
+}
+
+.input:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.button {
+    color: darkslategray;
+    border: none;
+    border-radius: 7px;
+    font-size: 18px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border: 1px solid silver;
+}
+
+.button:hover,
+.button:focus {
+    background-color: slategray;
+}
